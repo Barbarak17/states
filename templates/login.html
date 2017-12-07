@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+
+    <fieldset id="form">
+        <br>
+        <form action="/login" method="post">
+            <div>
+                <input autocomplete="off" autofocus name="username" placeholder="Username" type="text" id="form_data"/>
+            </div>
+            <br>
+            <div>
+                <input name="password" placeholder="Password" type="password" id="form_data"/>
+            </div>
+            <br>
+            <div>
+                <button type="submit" id="form_data">Log In</button>
+            </div>
+        </form>
+    </fieldset>
+{% endblock %}

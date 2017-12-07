@@ -1,0 +1,725 @@
+body {
+    /* style for main page for states styles with background image */
+	font-family: Chalkboard;
+	font-size: 18px;
+	color: #002AFF;
+	background-image: url(https://openclipart.org/image/2400px/svg_to_png/177330/studyusabis.png);
+	background-size: cover;
+}
+
+#state {
+    /* id with position and style of the maps of each state */
+	margin: 25px 250px 15px 250px;
+	display: block;
+	border: 0;
+}
+
+#home {
+    /* id with position and style for the home tab*/
+    font-size: 20px;
+    width:80px;
+    height:25px;
+    margin:auto;
+}
+
+/* ids for position and styles of states banners */
+
+#ma {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5F5DC ;
+    margin-left: 350px;
+	margin-right: 350px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#ak {
+	color: #4B0082;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #E6E6FA;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#al {
+	color: #FF4500;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFFF00 ;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#ar {
+	color: yellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: red ;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#az {
+	color: #696969;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: wheat;
+    margin-left: 350px;
+	margin-right: 350px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#ca {
+	color: #A52A2A;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#co {
+	color: #2F4F4F ;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFE4E1 ;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#ct {
+	color: #FFD700;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #B22222 ;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #3CB371
+}
+
+#de {
+	color: #B22222 ;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFE4E1;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #B22222
+}
+
+#fl {
+	color: dimgrey;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: lightskyblue;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: limegreen
+}
+
+#ga {
+	color: #B22222;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #DEB887 ;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #3CB371
+}
+
+#hi {
+	color: #FF6347;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #AFEEEE;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: white
+}
+
+#ia {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5DEB3;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#id {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFB6C1;
+    margin-left: 425px;
+	margin-right: 425px;
+	border-style: solid;
+    border-color: #FDF5E6
+}
+
+#il {
+	color: #DC143C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: yellow;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #3CB371
+}
+
+#in {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#ks {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: white
+}
+
+#ky {
+	color: #FFD700;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: 	#DC143C;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #3CB371
+}
+
+#la {
+	color: #FF1493;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFFACD;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#md {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: yellow;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: red
+}
+
+#me {
+	color: #FFD700;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #DC143C;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#mi {
+	color: #006400;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFFFF0;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#mn {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFF8DC;
+    margin-left: 350px;
+	margin-right: 350px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#mo {
+	color: #FFD700;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #DC143C;
+    margin-left: 400px;
+	margin-right: 400px;
+    border-style: solid;
+    border-color: black
+}
+
+#ms {
+	color: #DC143C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #D3D3D3;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#mt {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 410px;
+	margin-right: 410px;
+	border-style: solid;
+    border-color: #FFE4E1
+}
+
+#nc {
+	color: #FFD700;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #DC143C;
+    margin-left: 350px;
+	margin-right: 350px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#nd {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #B0C4DE;
+    margin-left: 300px;
+	margin-right: 300px;
+	border-style: solid;
+    border-color: white
+}
+
+#ne {
+	color: #8B4513;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FAF0E6;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #8B4513
+}
+
+#nh {
+	color: #FF4500;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5DEB3;
+    margin-left: 365px;
+	margin-right: 365px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#nj {
+	color: #DC143C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #D3D3D3;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#nm {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #DEB887;
+    margin-left: 315px;
+	margin-right: 315px;
+	border-style: solid;
+    border-color: white
+}
+
+#nv {
+	color: #FF4500;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #ADD8E6;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#ny {
+	color: #32CD32;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5FFFA;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#oh {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5DEB3;
+    margin-left: 425px;
+	margin-right: 425px;
+	border-style: solid;
+    border-color: white
+}
+
+#ok {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 415px;
+	margin-right: 415px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#or {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5DEB3;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #3CB371
+}
+
+#pa {
+	color: #DC143C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#ri {
+	color: yellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #663399;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #EE82EE
+}
+
+#sc {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 355px;
+	margin-right: 355px;
+	border-style: solid;
+    border-color: #2F4F4F
+}
+
+#sd {
+	color: #DC143C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5FFFA;
+    margin-left: 335px;
+	margin-right: 335px;
+	border-style: solid;
+    border-color: #FFD700
+}
+
+#tn {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFD700;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #F5DEB3
+}
+
+#tx {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5DEB3;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: #3CB371
+}
+
+#ut {
+	color: #2F4F4F;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FFE4B5;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: white
+}
+
+#va {
+	color: Brown;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FDF5E6;
+    margin-left: 375px;
+	margin-right: 375px;
+	border-style: solid;
+    border-color: #FFD700
+}
+
+#vt {
+	color: #FFFAFA;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #FF6347;
+    margin-left: 355px;
+	margin-right: 355px;
+	border-style: solid;
+    border-color: #FFD700
+}
+
+#wa {
+	color: grey;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: #F5DEB3;
+    margin-left: 355px;
+	margin-right: 355px;
+	border-style: solid;
+    border-color: #FFFAF0
+}
+
+#wi {
+	color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: PeachPuff;
+    margin-left: 400px;
+	margin-right: 400px;
+	border-style: solid;
+    border-color: silver
+}
+
+#wv {
+	color: mediumvioletred;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: ghostwhite;
+    margin-left: 355px;
+	margin-right: 355px;
+	border-style: solid;
+    border-color: grey
+}
+
+#wy {
+	color: dimgrey;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: wheat;
+    margin-left: 325px;
+	margin-right: 325px;
+	border-style: solid;
+    border-color: white
+}

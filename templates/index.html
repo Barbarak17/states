@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <link rel="stylesheet" href="static/style.css">
+      <title>US State Capitals & Nicknames</title>
+    </head>
+    <body>
+        <div><br><span id="title">State Capitals and Nicknames</span></div>
+        <fieldset><legend id="legend">Select a state from the menu and click on submit</legend>
+           <form action="/state" method="post">
+               <select name="state" id="Btn">
+                     <option disabled selected value="">State</option>
+                     <option value="id1">AK</option>
+                     <option value="id2">AL</option>
+                     <option value="id3">AR</option>
+                     <option value="id4">AZ</option>
+                     <option value="id5">CA</option>
+                     <option value="id6">CO</option>
+                     <option value="id7">CT</option>
+                     <option value="id8">DE</option>
+                     <option value="id9">FL</option>
+                     <option value="id10">GA</option>
+                     <option value="id11">HI</option>
+                     <option value="id12">IA</option>
+                     <option value="id13">ID</option>
+                     <option value="id14">IL</option>
+                     <option value="id15">IN</option>
+                     <option value="id16">KS</option>
+                     <option value="id17">KY</option>
+                     <option value="id18">LA</option>
+                     <option value="id19">MA</option>
+                     <option value="id20">MD</option>
+                     <option value="id21">ME</option>
+                     <option value="id22">MI</option>
+                     <option value="id23">MN</option>
+                     <option value="id24">MO</option>
+                     <option value="id25">MS</option>
+                     <option value="id26">MT</option>
+                     <option value="id27">NC</option>
+                     <option value="id28">ND</option>
+                     <option value="id29">NE</option>
+                     <option value="id30">NH</option>
+                     <option value="id31">NJ</option>
+                     <option value="id32">NM</option>
+                     <option value="id33">NV</option>
+                     <option value="id34">NY</option>
+                     <option value="id35">OH</option>
+                     <option value="id36">OK</option>
+                     <option value="id37">OR</option>
+                     <option value="id38">PA</option>
+                     <option value="id39">RI</option>
+                     <option value="id40">SC</option>
+                     <option value="id41">SD</option>
+                     <option value="id42">TN</option>
+                     <option value="id43">TX</option>
+                     <option value="id44">UT</option>
+                     <option value="id45">VA</option>
+                     <option value="id46">VT</option>
+                     <option value="id47">WA</option>
+                     <option value="id48">WI</option>
+                     <option value="id49">WV</option>
+                     <option value="id50">WY</option>
+                </select>
+            <div class="divider">
+                <input type="submit" id="Btn" value="Submit"/>
+            </div>
+            <span class="hint" id="hintTitle">State Abbreviations</span>
+            <br>
+            <span class="hint1"> ALABAMA AL, ALASKA AK, ARIZONA AZ, ARKANSAS AR, CALIFORNIA CA, COLORADO CO, CONNECTICUT CT</span>
+            <br>
+            <span class="hint1">DELAWARE DE, FLORIDA FL, GEORGIA GA, HAWAII	HI, IDAHO ID, ILLINOIS IL, INDIANA IN, IOWA IA</span>
+            <br>
+            <span class="hint1">KANSAS KS, KENTUCKY KY, LOUISIANA LA, MAINE ME, MARYLAND MD, MASSACHUSETTS MA, MICHIGAN MI</span>
+            <br>
+            <span class="hint1">MINNESOTA MN, MISSISSIPPI MS, MISSOURI MO, MONTANA MT, NEBRASKA NE, NEVADA NV, NEW HAMPSHIRE NH</span>
+            <br>
+            <span class="hint1">NEW JERSEY NJ, NEW MEXICO NM, NEW YORK NY, NORTH CAROLINA NC, NORTH DAKOTA ND, OHIO OH, OKLAHOMA OK</span>
+            <br>
+            <span class="hint1">OREGON OR, PENNSYLVANIA PA, RHODE ISLAND RI, SOUTH CAROLINA SC, SOUTH DAKOTA SD, TENNESSEE TN, TEXAS TX</span>
+            <br>
+            <span class="hint1">UTAH UT, VERMONT VT, VIRGINIA VA, WASHINGTON WA, WEST VIRGINIA WV, WISCONSIN WI, WYOMING WY</span>
+        </fieldset>
+        <br>
+        <fieldset id="image">
+		    <span><img style="width: 100%;text-align: center" src="https://i2.wp.com/epiphnia.com/wp-content/uploads/2017/07/flag.gif?fit=320%2C200"></span>
+		</fieldset>
+		<br>
+		<div id="logout" style="text-align: center"><a href="/logout">Log Out</a></div>
+		<div id="note" style="text-align: left">® NASA images</div>
+    </body>
+</html>

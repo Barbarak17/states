@@ -1,0 +1,147 @@
+body {
+	/* style for main page for index, login, register, & layout templates with background image */
+	font-family: Chalkboard;
+	font-size: 18px;
+	color: #002AFF;
+	background-image: url("https://apod.nasa.gov/apod/image/usanight_dmsp_big.gif");
+	background-size: cover;
+}
+
+#title {
+	/* id with styles for the title of index, login, register, & layout templates */
+	color: #DC143C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    font-family: Snell Roundhand;
+    background-color: black;
+    margin-left: 350px;
+	margin-right: 350px;
+}
+
+fieldset {
+	/* style and position of the fieldset that containg the drop menu */
+	margin: 10px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 10px;
+	border: solid 2px #DC143C;
+}
+
+.divider {
+	/* class to separate buttons */
+    width:150px;
+    height:auto;
+    display:inline-block;
+}
+
+.hint {
+	/* class for the title inside the fieldset */
+	margin-left: 300px;
+	margin-right: auto;
+	background-color: black;
+}
+
+.hint1 {
+	/* class for the list of states and their abbreviations */
+	margin-left: 180px;
+	margin-right: auto;
+	color: #F5F5DC;
+	background-color: black;
+}
+
+#legend {
+	/* styel for the legend on the fieldset */
+	background-color: black;
+	color: #7B68EE;
+}
+
+#Btn {
+	/* style for the buttons */
+  	font-size: 18px ;
+	background-color:#6A5ACD;
+	padding:4px 14px;
+	color:white;
+	font-family:Chalkboard;
+	-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #DC143C;
+}
+
+#hintTitle {
+	/* style for the hint title  in the fieldset */
+	color: #7B68EE;
+    font-size: 25px;
+    background-color: black;
+}
+
+#form {
+	/* style and position for the fieldset of the register and login forms (also for memegen link image in apology template) */
+	text-align: center;
+	display: block;
+	border: 0;
+}
+
+#form_data {
+	/* style for the data of the register and login forms */
+	font-size: 18px ;
+	font-family:Chalkboard;
+	border-radius:5px;
+}
+
+#form2 {
+	/* style and position for the resgister and login tabs in layout */
+    position:relative;
+    width:80px;
+    height:40px;
+    bottom:-310px;
+    font-size: 18px;
+    background-color:black;
+    border:0;
+    border-radius:5px;
+    text-align: center;
+	display: block;
+	margin:auto;
+}
+
+#logout {
+	/* style and position for the logout tab (also for the login & register tabs in apology template) */
+    font-size: 18px;
+    width:80px;
+    height:25px;
+    margin:auto;
+	color: #DCDCDC;
+	background-color:black;
+}
+
+#image {
+	/* style and position for the home page image */
+	margin-left: 400px;
+	margin-right: 400px;
+	display: block;
+	border: 0;
+}
+
+#note {
+	/* style for the note on the home page */
+	font-style: italic;
+	font-size: 10px;
+	color: #DCDCDC;
+}
+
+#note2 {
+	/* style for the note on the layout */
+    position:relative;
+    width:80px;
+    height:20px;
+    bottom:-400px;
+    font-size: 10px;
+    font-style: italic;
+    color: #DCDCDC;
+    background-color:black;
+    border-radius:5px;
+    text-align: center;
+	display: block;
+}
